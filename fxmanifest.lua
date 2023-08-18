@@ -7,7 +7,6 @@ version '0.0.4'
 
 lua54 'yes'
 
-
 ui_page 'html/index.html'
 -- ui_page 'http://localhost:3000/' --for dev
 
@@ -23,8 +22,6 @@ server_script {
 client_script {
   'client/**',
 }
-
-
 
 files {
   'html/**',
